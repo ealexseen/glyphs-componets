@@ -1,0 +1,19 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon["default"])(_react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement("path", {
+  d: "M0 480h192V288H0zm64-128h64v64H64zM256 32v192h192V32zm128 128h-64V96h64zM0 224h192V32H0zM64 96h64v64H64z",
+  opacity: ".4"
+})), 'QrcodeDuotone', '0 0 448 512');
+
+exports["default"] = _default;

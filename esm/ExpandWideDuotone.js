@@ -1,0 +1,6 @@
+import React from 'react';
+import createSvgIcon from './utils/createSvgIcon';
+export default createSvgIcon(React.createElement(React.Fragment, null, React.createElement("path", {
+  d: "M148 64H24A23.94 23.94 0 000 88v124a12 12 0 0012 12h40a12 12 0 0012-12v-84h84a12 12 0 0012-12V76a12 12 0 00-12-12zm352 224h-40a12 12 0 00-12 12v84h-84a12 12 0 00-12 12v40a12 12 0 0012 12h124a23.94 23.94 0 0024-24V300a12 12 0 00-12-12z",
+  opacity: ".4"
+})), 'ExpandWideDuotone', '0 0 512 512');

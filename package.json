@@ -1,0 +1,47 @@
+{
+  "_args": [
+    [
+      "@arcadia/glyphs@1.0.0",
+      "/Users/evgenij/projects/salesmessages/chrome-extension"
+    ]
+  ],
+  "_from": "@arcadia/glyphs@1.0.0",
+  "_id": "@arcadia/glyphs@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DQiiCtDqJxn1uTclWdRQnLGr6iQoQOObAlRLBT2uxRSFNncrI2hkppzw0UTcqWtA6JQUEhPbL62+Kh7J9+wj0w==",
+  "_location": "/@arcadia/glyphs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@arcadia/glyphs@1.0.0",
+    "name": "@arcadia/glyphs",
+    "escapedName": "@arcadia%2fglyphs",
+    "scope": "@arcadia",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@arcadia/glyphs/-/glyphs-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/Users/evgenij/projects/salesmessages/chrome-extension",
+  "dependencies": {},
+  "description": "The FontAwesome Icon library for Salesmsg.",
+  "license": "UNLICENSED",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "name": "@arcadia/glyphs",
+  "peerDependencies": {
+    "@arcadia/ui": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}

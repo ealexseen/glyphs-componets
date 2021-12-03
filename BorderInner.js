@@ -1,0 +1,18 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("./utils/createSvgIcon"));
+
+var _default = (0, _createSvgIcon["default"])(_react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement("path", {
+  d: "M432 232H248V48a16 16 0 00-16-16h-16a16 16 0 00-16 16v184H16a16 16 0 00-16 16v16a16 16 0 0016 16h184v184a16 16 0 0016 16h16a16 16 0 0016-16V280h184a16 16 0 0016-16v-16a16 16 0 00-16-16zM40 424H16a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zM16 184h24a16 16 0 0016-16v-24a16 16 0 00-16-16H16a16 16 0 00-16 16v24a16 16 0 0016 16zm24 144H16a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zm72-240h24a16 16 0 0016-16V48a16 16 0 00-16-16h-24a16 16 0 00-16 16v24a16 16 0 0016 16zm-96 0h24a16 16 0 0016-16V48a16 16 0 00-16-16H16A16 16 0 000 48v24a16 16 0 0016 16zm296 0h24a16 16 0 0016-16V48a16 16 0 00-16-16h-24a16 16 0 00-16 16v24a16 16 0 0016 16zm120 240h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zm-296 96h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zM432 32h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16V48a16 16 0 00-16-16zm0 96h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zm-96 296h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16zm96 0h-24a16 16 0 00-16 16v24a16 16 0 0016 16h24a16 16 0 0016-16v-24a16 16 0 00-16-16z"
+})), 'BorderInner', '0 0 448 512');
+
+exports["default"] = _default;
